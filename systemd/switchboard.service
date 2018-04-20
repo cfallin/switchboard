@@ -3,7 +3,7 @@ Description=Switchboard redirect server
 After=network.service
 
 [Service]
-ExecStart=/usr/local/bin/switchboard
+ExecStart=/usr/bin/switchboard
 User=nobody
 
 [Install]
