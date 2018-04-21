@@ -4,6 +4,7 @@ Release:	2%{?dist}
 Summary:    Local URL shortcut HTTP server
 
 %global commit 090c9cd44e168b8e03448082370aaaddc0b9e8f1
+%global shortcommit 090c9cd
 %global commitdate 20180420
 %global import_path github.com/nixprime/switchboard
 %global forked_import_path github.com/cfallin/switchboard
@@ -12,7 +13,7 @@ Summary:    Local URL shortcut HTTP server
 Group:		Network Servers
 License:	MIT
 URL:		https://%{import_path}
-Source0:	https://%{forked_import_path}/archive/%{commit}/%{repo}-%{commit}.tar.gz
+Source0:	https://%{forked_import_path}/archive/%{commit}/%{repo}-%{shortcommit}.tar.gz
 
 BuildRequires:	compiler(go-compiler)
 Requires:	systemd libcap
