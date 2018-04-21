@@ -3,7 +3,7 @@ Description=Switchboard redirect server
 After=network.service
 
 [Service]
-ExecStart=/usr/bin/switchboard
+ExecStart=/usr/bin/nixprime-switchboard -f /etc/nixprime-switchboard.conf
 User=nobody
 
 [Install]
